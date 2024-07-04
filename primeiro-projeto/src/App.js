@@ -1,6 +1,7 @@
 import React from "react";
 
 class App extends React.Component {
+  // Metodo responsável por renderizar o conteúdo HTML do nosso componente;
   render () {
       return (
         <div>
