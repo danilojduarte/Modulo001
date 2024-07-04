@@ -1,12 +1,16 @@
+import React from "react";
 
-function App() {
-  return (
-    <div>
-      <h1>Primeiro Projeto</h1>
-
-      <p>Realizando teste</p>
-    </div>
-  );
-}
+class App extends React.Component {
+  render () {
+      return (
+        <div>
+          <h1>Primeiro Projeto</h1>
+    
+          <p>Realizando teste</p>
+        </div>
+      );
+    }
+  }
+  
 
 export default App;
