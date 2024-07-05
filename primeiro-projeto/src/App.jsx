@@ -1,4 +1,7 @@
 import React from "react";
+import logoImg from './assets/img/logo-removebg-preview.png'
+
+import './styles/App.css'
 
 class App extends React.Component {
   // Metodo responsável por renderizar o conteúdo HTML do nosso componente;
@@ -7,7 +10,7 @@ class App extends React.Component {
        <header>
         <nav id="navbar">
           <div className="nav-brand">
-            <img src="" alt="" />
+            <img src={logoImg} alt="Logo do planeta" />
             <h1>Space Flight News</h1>
           </div>
           <ul className="nav0list">
