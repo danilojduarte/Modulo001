@@ -13,7 +13,7 @@ class App extends React.Component {
             <img src={logoImg} alt="Logo do planeta" />
             <h1>Space Flight News</h1>
           </div>
-          <ul className="nav0list">
+          <ul className="nav-list">
             <li><a href="/">Home</a></li>
             <li><a href="/">Trending</a></li>
             <li><a href="/">Categories</a></li>
