@@ -14,6 +14,9 @@ class App extends React.Component {
 
       <section id="articles">
         <Article />
+        <Article />
+        <Article />
+        <Article />
       </section>
       </>
     ) 
