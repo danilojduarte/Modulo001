@@ -10,11 +10,13 @@ class App extends React.Component {
   render() {
     return (
       <>
-      <Navbar />;
-      
-      <Article />;
+      <Navbar />
+
+      <section id="articles">
+        <Article />
+      </section>
       </>
-    );    
+    ) 
   }
 }
 

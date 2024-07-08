@@ -2,6 +2,8 @@ import React from "react";
 
 import ArticleImg from "../../assets/img/article-img-01.jpg";
 
+import "./styles.css";
+
 
 export class Article extends React.Component {
   render () {
