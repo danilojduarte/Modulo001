@@ -11,7 +11,7 @@ export class Navbar extends React.Component {
         <nav id="navbar">
           <div className="nav-brand">
             <img src={logoImg} alt="Logo do planeta" />
-            <h1>House Of Dragon</h1>
+            <h1>House Of The Dragon</h1>
           </div>
           <ul className="nav-list">
             <li><a href="/">Home</a></li>
