@@ -13,7 +13,7 @@ class App extends React.Component {
       <Navbar />
 
       <section id="articles">
-        <Article  />
+        <Article title="Exemplo" />
         <Article />
         <Article />
         <Article />
