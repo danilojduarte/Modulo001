@@ -18,7 +18,6 @@ export class Counter extends React.Component {
           onClick={() => { 
             // this.contador = this.contador -1;
             this.setState({ contador: this.state.contador -1 });
-            console.log(this.contador)
           }}
             >Diminuir</button>
 
@@ -26,7 +25,6 @@ export class Counter extends React.Component {
           onClick={() => { 
             // this.contador = this.contador +=1;
             this.setState({ contador: this.state.contador +1 });
-            console.log(this.contador)
           }}
             >Aumentar</button>
         </div>
