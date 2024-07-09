@@ -1,14 +1,34 @@
 import React from "react";
 
 export class Counter extends React.Component {
+  constructor() {
+    super();
+    // this.contador = 0;
+    this.state = { contador: 0 }
+  }
+
+
   render () {
     return(
-      <div style={{ marginTop: "20px", marginLeft: "20px"}}>
-        <h1>0</h1>
+      <div style={{ marginTop: "20px", marginLeft: "40px"}}>
+        <h1>{this.state.contador}</h1>
 
         <div>
-          <button>Diminuir</button>
-          <button>Aumentar</button>
+          <button 
+          onClick={() => { 
+            // this.contador = this.contador -1;
+            this.setState({ contador: this.state.contador -1 });
+            console.log(this.contador)
+          }}
+            >Diminuir</button>
+
+          <button 
+          onClick={() => { 
+            // this.contador = this.contador +=1;
+            this.setState({ contador: this.state.contador +1 });
+            console.log(this.contador)
+          }}
+            >Aumentar</button>
         </div>
       </div>
     );
