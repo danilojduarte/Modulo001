@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Article } from "./components/Article/Article";
+import { Counter } from "./components/Counter/Counter";
 
 import "./styles/App.css";
 
@@ -16,7 +17,9 @@ class App extends React.Component {
       <>
       <Navbar />
 
-      <section id="articles">
+      <Counter />
+
+      {/* <section id="articles">
         <Article title="O Começo..." 
         provider="HBO" 
         description="House of the Dragon: entenda a profecia que causou a guerra entre os Targaryen: - Aegon. O sonho dele. A Canção de Gelo e Fogo. É verdade, o que ele viu no Norte. O príncipe que foi prometido. O príncipe, para unir o Reino contra o frio e a escuridão, é você. É você quem deve fazer isso."
@@ -41,7 +44,7 @@ class App extends React.Component {
         thumbnail={article04}
         />
 
-      </section>
+      </section> */}
       </>
     ) 
   }
